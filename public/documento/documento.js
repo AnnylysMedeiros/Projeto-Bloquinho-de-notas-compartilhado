@@ -22,7 +22,7 @@ function atualizarInterfaceUsuarios(usuariosNoDocumento) {
   listaUsuariosConectados.innerHTML = "";
 
   usuariosNoDocumento.forEach((usuario) => {
-    listaUsuariosConectados.innerHTML += `
+    listaUsuariosConectados.innerHTML += `<i class="fa-solid fa-user"></i>
     <li class="list-group-item">${usuario}</li>`;
   });
 }

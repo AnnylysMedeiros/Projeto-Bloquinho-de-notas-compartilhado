@@ -8,6 +8,12 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="style.css" rel="stylesheet">
 
   <title>AluraDocs | Documento</title>
 </head>
@@ -17,20 +23,24 @@
     <h1 class="display-4 mb-4 text-center" id="titulo-documento">Documento sem título</h1>
   </header>
 
-  <main class="container-md">
-    <div class="row mb-3">
+  <main class="">
+    <div class="row mb-3 container-documento">
       <div class="col-sm-8 col-md-9">
-        <textarea id="editor-texto" class="form-control mb-4" style="height: 400px; resize: none;"></textarea>
+        <textarea id="editor-texto" spellcheck="false"></textarea>
       </div>
 
       <div class="col-sm-4 col-md-3">
-        <h2 class="fs-5 fw-normal mb-3">Usuários conectados:</h2>
+        <div class="container-usuarios">
 
-        <ul class="list-group" id="usuarios-conectados"></ul>
+          <h2 class="mb-3">Usuários conectados:</h2>
+          
+          <ul id="usuarios-conectados"></ul>  
+        </div>
+        <img class="imagem" src="../img/clipess.png" alt="Clipes">   
       </div>
     </div>
 
-    <div class="col-sm-8 col-md-9 d-flex justify-content-between">
+    <div class="botoes-documento">
       <a href="/index.html" class="btn btn-primary">Voltar</a>
       <button id="excluir-documento" class="btn btn-outline-danger">Excluir documento</button>
     </div>
