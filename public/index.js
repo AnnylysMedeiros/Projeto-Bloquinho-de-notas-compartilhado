@@ -10,7 +10,7 @@ const botaoLogout = document.getElementById("botao-logout");
 
 botaoLogout.addEventListener("click", () => {
   removerCookie("tokenJwt");
-  alert("Usuário deslogado!");
+  // alert("Usuário deslogado!");
   window.location.href = "/login/index.html";
 });
 
@@ -26,7 +26,7 @@ function inserirLinkDocumento(nomeDocumento) {
       href="/documento/index.html?nome=${nomeDocumento}"
       class="list-group-item list-group-item-action"
       id="documento-${nomeDocumento}"
-    >
+    ><i class="fa-solid fa-file"></i>  
       ${nomeDocumento}
     </a>
   `;

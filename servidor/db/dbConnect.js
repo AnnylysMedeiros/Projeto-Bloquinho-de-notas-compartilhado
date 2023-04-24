@@ -2,7 +2,6 @@ import { MongoClient } from "mongodb";
 
 const cliente = new MongoClient(
   "mongodb+srv://alura:123@curso-websockets.okfgeb2.mongodb.net/?retryWrites=true&w=majority"
-  // "mongodb+srv://alura:123@curso-websockets.okfgeb2.mongodb.net/test"
 );
 
 let documentosColecao, usuariosColecao;

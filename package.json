@@ -1,5 +1,5 @@
 {
-  "name": "alura-docs",
+  "name": "virtuale-docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antonio-evaldo/alura-docs.git"
+    "url": "git+https://github.com/AnnylysMedeiros/Projeto-Bloquinho-de-notas-compartilhado"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/antonio-evaldo/alura-docs/issues"
+    "url": "https://github.com/AnnylysMedeiros/Projeto-Bloquinho-de-notas-compartilhado"
   },
-  "homepage": "https://github.com/antonio-evaldo/alura-docs#readme",
+  "homepage": "https://github.com/AnnylysMedeiros/Projeto-Bloquinho-de-notas-compartilhado",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
